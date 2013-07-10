@@ -26,8 +26,9 @@ $(document).ready(function() {
         return results;
     };
 
+    //TODO need to add code for getting access_token using oauth client flow
     var data = {
-        access_token: "3s7ccdz5jqejlfejnsa9lbyi62iyu51y"
+        access_token: "abcd"
     };
 
     var buildUI = function(parent, items) {
